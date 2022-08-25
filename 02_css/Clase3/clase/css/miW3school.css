@@ -1,0 +1,31 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.menuArriba {
+    margin:1rem;
+}
+
+.menuArriba > a {
+    padding: .8rem 1rem .5rem .8rem;
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: bolder;
+   
+}
+
+.menuArriba > a:hover {
+    background-color: green;
+}
+
+.menuAbajo {
+    background-color: black;
+    position: sticky;
+    top: 0px;
+}
+
+.menuAbajo > a {
+    padding: 1rem;
+    color: white;
+}

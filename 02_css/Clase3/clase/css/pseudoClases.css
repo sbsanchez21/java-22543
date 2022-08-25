@@ -1,0 +1,39 @@
+p:hover {
+    background-color: #ddd;
+}
+
+li:last-child {
+    background-color: #ddd;
+}
+
+li:first-child {
+    background-color: #000;
+}
+
+li:nth-child(3) {
+    background-color: green;
+}
+
+li:nth-child(2n) {
+    background-color: lightgray;
+}
+
+.tablita {
+    /* background-color: lightgrey; */
+    width: 100%;
+    text-align: center;
+}
+
+td {
+    padding: .3rem;
+}
+
+tr:nth-child(odd) {
+    background-color: lightgray;
+} 
+
+input:focus {
+    padding: .5rem;
+    width: 30%;
+    border: 1px solid blue;
+}
