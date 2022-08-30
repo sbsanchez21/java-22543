@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.menuArriba {
+    /* background-color: #ddd; */
+    display: flex;
+    /* flex-direction: row; */
+    align-items: center;
+    height: 50px;
+}
+
+.menuArriba .cajaArriba {
+    width: 100px;
+    /* height: 50px; */
+    padding: 0rem 1rem 0rem .8rem;
+    text-align: center;
+    /* todo: el hover que abarque toda la caja y no solo el a */
+    
+}
+
+.menuArriba .cajaArriba:hover {
+    background-color: #46a049;
+    /* todo: poner letra en blanco cuando hover */
+    color: white;
+    cursor: pointer;
+    /* cursor: url(); */
+}
+
+.cajaArriba > a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.cajaArriba > a:hover { 
+    color: white;
+}
+
+
+.menuAbajo {
+    background-color: #282A35;   
+    top: 0px;
+    position: sticky;
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+
+.cajaAbajo > a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+    padding: 0rem 1rem 0rem 1rem;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+.cajaAbajo:hover {
+    background-color: #46a049;
+}

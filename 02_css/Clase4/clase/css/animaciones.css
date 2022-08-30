@@ -1,0 +1,37 @@
+.cajaAnimada {
+    width: 100px;
+    height: 100px;
+    padding: 1rem;
+    border-radius: 20px;
+    background-color: #ddd;
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    text-align: center;
+    animation: fadeIn;
+    animation-duration: 2s;
+}
+
+.textoAnimado {
+    padding: 1rem;
+    border-radius: 20px;
+    background-color: #ddd;
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    text-align: center;
+    animation: fadeIn;
+    animation-duration: 3s;
+    --animate-delay: 2s;
+    --animate-repeat: 2;
+}
+
+.alerta {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    animation: flash;
+    animation-duration: 3s;
+    --animate-repeat: 5;
+    /* --animate-fast:800ms; */
+}

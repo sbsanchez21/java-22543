@@ -1,0 +1,23 @@
+html {
+    font-size: 16px;
+}
+
+.flex-container {
+    display: flex;
+    background-color: lightseagreen;
+    height: 150px;
+    /* flex-direction: row-reverse; */
+    /* flex-wrap: wrap-reverse; */
+    /* flex-flow: row wrap;     */
+
+    justify-content: space-around;
+
+    align-items: stretch;
+}
+
+.flex-container > div {
+    background-color: lightsalmon;
+    /* margin: 10px; */
+    padding: 20px;
+    font-size: 2rem;
+}
