@@ -1,0 +1,11 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Roboto+Mono&display=swap');
+
+.fontCanit {
+    font-family: 'Kanit', sans-serif;
+
+}
+
+.fontRoboto {
+    font-family: 'Roboto Mono', monospace;
+}

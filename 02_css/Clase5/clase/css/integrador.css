@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@500&display=swap');
+
+body {
+    font-family: 'Anek Telugu', sans-serif;
+}
+
+.oradores {
+    display: flex;
+    justify-content: center;
+}
+
+.orador {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    width: 300px;
+    margin: 1rem;
+}
+
+.orador > img {
+    width: 100%;
+}
+
+.textoOrador {
+    margin: 1.2rem;
+}
+
+.botones > input {
+    border: 0;
+    border-radius: 5px;
+    padding: .3rem .6rem;
+    font-weight: bold;
+    
+}
+
+.botones > input:hover {
+    animation: flash; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+    /* --animate-delay: 0.9s; */
+    cursor: pointer;
+}
+
+.btnAmarillo {
+    background-color:rgb(254, 193, 6);
+}
+
+.btnCeleste {
+    background-color:rgb(23, 162, 183);
+    color: white;
+}
+
+.titulo {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.descripcion {
+    text-align: justify;
+}

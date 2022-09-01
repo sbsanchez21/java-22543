@@ -1,0 +1,15 @@
+.cajaAnimada {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    animation: bounce; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 5s; /* don't forget to set a duration! */
+    --animate-delay: 0.9s;
+}
+
+.imgCaida:hover {
+    animation: hinge; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 5s; /* don't forget to set a duration! */
+    --animate-delay: 0.9s;
+
+}
