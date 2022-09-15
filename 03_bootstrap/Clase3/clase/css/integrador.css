@@ -1,0 +1,9 @@
+.bgAguas {
+    background-image: url("../images/hawaii.jpg") ;
+    background-size: 100%;
+    filter:opacity(100%);
+
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/fondo.jpg"); */
+
+
+}
