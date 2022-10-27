@@ -1,0 +1,90 @@
+Administrar Escuela:
+--------------------
+- consultar los datos de los alumnos, profes, materias
+- consultar las materias que cursa un alumno
+- consultar las materias que dicta un profesor
+
+Entidades:
+----------
+- alumnos
+- materias
+- profesores 
+
+
+Tablas Sin Normalizar:
+----------------------
+Alumnos:
+apellido y nombre y documento
+curso
+materias que cursa
+turno
+dni
+email
+telefono
+direccion
+cuil
+
+Materias:
+nombre
+descripción
+calificación
+alumnos que la cursan
+profes que la dictan
+turno 
+
+Profesores:
+apellido y nombre y documento
+dni
+email
+telefono
+direccion
+cuil
+materias que dicta
+
+
+Tablas Levemente Normalizadas:
+------------------------------
+Alumnos:
+id int //identificar univocamente un alumno o registro
+nombre varchar(50)
+apellido varchar(50)
+dni int 
+email varchar(50)
+telefono int 
+direccion  //calle, altura, manzana, piso, dpto, codigo postal, localidad, provincia -> idDireccion int
+cuil bigint //20256663331 -> mascara
+curso varchar(10)
+materias que cursa //lista materias -> lista de idMaterias
+turno
+
+Direccion:
+id int 
+calle varchar(50)
+altura
+manzana
+piso
+dpto
+codigoPostal
+localidad
+provincia
+
+Materias:
+id int primary key auto_increment
+nombre varchar(50)
+descripción varchar(80)
+calificación
+alumnos que la cursan //lista alumnos -> lista idAlumnos
+profes que la dictan //idProfesor
+turno 
+
+
+Profesores:
+id
+nombre
+apellido 
+dni
+email
+telefono
+direccion
+cuil
+materias que dicta
