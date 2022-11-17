@@ -1,0 +1,46 @@
+mochila:
+--------
+forma
+color
+bolsillos
+capacidad
+
+llevarCosas()
+
+moch1
+60 lts
+llevarCosas()
+
+moch2
+15lts
+llevarCosas()
+
+moch3
+30lts
+llevarCosas()
+
+
+
+Marcador:
+---------
+tipoTinta: indeleble, borrable
+color: azul, negro, rojo, verde
+
+marcarEnPizarra()
+
+m1
+azul
+marcarEnPizarra()
+
+m2
+rojo
+marcarEnPizarra()
+
+Profesor:
+---------
+nombre
+apellido
+dni
+listaMaterias
+
+escribir()
