@@ -1,0 +1,48 @@
+Ejemplos Composción y Agregación:
+--------------------------------
+
+Clientes:
+----------
+id
+nombre
+apellido
+dni
+email
+tel
+cuil
+nroCliente
+direccion: calle, altura, dpto, piso, codigoPostal, manzana, barrio, localidad, provincia, pais
+-> Direccion 
+cuenta: numero, sucursal, tipo, cbu, cvu, alias, saldo
+-> Cuenta
+
+Direccion:
+----------
+id
+calle
+altura
+piso
+dpto 
+codigoPostal
+barrio
+localidad
+provincia
+pais
+
+Cuenta:
+-------
+id
+tipo: ctaCte, caja ahorro, sueldo
+moneda: pesos dolares
+numero
+cbu
+cvu
+alias
+saldo
+
+
+Composción:
+Empresa -> Empleado la existencia del objt empleado depende del padre
+
+Agregación
+Empresa -> Cliente la existencia del objt cliente No depende del padre
